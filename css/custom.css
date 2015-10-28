@@ -75,6 +75,11 @@ body {
     height: 220px;
   }
 }
+@media (max-width: 340px) {
+  .masthead {
+    margin-bottom: 10px;
+  }
+}
 
 a,
 a:focus,
