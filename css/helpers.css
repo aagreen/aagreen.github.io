@@ -1,0 +1,49 @@
+/*========== CUSTOM HELPER CLASSES ==========*/
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.green{
+    color: rgb(67,160,71);
+}
+
+.box-shadow-top{
+	box-shadow: 0 -5px 5px rgba(0,0,0,.2);
+}
+
+.margin-top-none{
+    margin-top: 0;
+}
+
+.margin-bottom-none{
+    margin-bottom: 0;
+}
+
+/* ----- Animations ----- */
+[ng-view].ng-enter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: fadeInRight .7s;
+}
+[ng-view].ng-leave {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: fadeOutLeft .7s;
+}
+
+.fade.ng-enter {
+  animation: fadeIn 1s;
+}
+.fade.ng-leave {
+  animation: fadeOut .5s;
+}
