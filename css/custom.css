@@ -30,7 +30,7 @@ body {
     font-weight: bold;
 }
 #footer span{
-    height: 40px;
+    padding-top: 5px;
 }
 
 /* ========== Custom Owl Carousel ========== */
