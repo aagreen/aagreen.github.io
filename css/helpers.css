@@ -27,6 +27,11 @@
     margin-bottom: 0;
 }
 
+@media (min-width: 1500px)
+.footer-margin {
+    margin-bottom: 60px;
+}
+
 /* ----- Animations ----- */
 [ng-view].ng-enter {
   position: absolute;
