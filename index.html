@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Come enjoy the freshest and tastiest tea in Pflugerville! We have a variety of drinks on our menu from cream tea, green tea, fresh juice, and coffee.">
-	<meta name="keywords" content="aa green tea house, tea, house, tea house, green, boba, tapioca, milk, thai, thai tea, juice, smoothie, pflugerville, austin, texas, tx, ali arshad, ali, arshad">
+    <meta name="keywords" content="aa green tea house, tea, house, tea house, green, boba, tapioca, milk, thai, thai tea, juice, smoothie, pflugerville, austin, texas, tx, ali arshad, ali, arshad">
     <base href="/">
 
     <link rel="stylesheet" href="libs/angular-material.min.css">
@@ -41,15 +41,13 @@
         <div ng-view></div>
 
         <!-- FOOTER -->
-        <div ng-controller="navCtrl">
-            <div id="footer" layout="row" layout-align="space-between center" class="box-shadow-top" ng-if="showFooter">
-                <a ng-href="http://ali-arsh.com" target="blank" class="md-margin">&copy; 2015 Ali Arshad</a>
-                <span>
-                    <md-button aria-label="Facebook" class="logoBtn md-icon-button" ng-href="http://www.facebook.com/aagreenteahouse" target="_blank"><img data-ng-src="img/fb.png" /></md-button>
-                    <md-button aria-label="Yelp" class="logoBtn md-icon-button" ng-href="http://www.yelp.com/biz/aa-green-teahouse-pflugerville" target="_blank"><img data-ng-src="img/yelp.png" /></md-button>
-                </span>
-            </div>
-		</div>
+	    <div id="footer" layout="row" layout-align="space-between center" class="box-shadow-top">
+	        <a ng-href="http://ali-arsh.com" target="blank" class="md-margin">&copy; 2015 Ali Arshad</a>
+	        <span>
+	            <md-button aria-label="Facebook" class="logoBtn md-icon-button" ng-href="http://www.facebook.com/aagreenteahouse" target="_blank"><img data-ng-src="img/fb.png" /></md-button>
+	            <md-button aria-label="Yelp" class="logoBtn md-icon-button" ng-href="http://www.yelp.com/biz/aa-green-teahouse-pflugerville" target="_blank"><img data-ng-src="img/yelp.png" /></md-button>
+	        </span>
+	    </div>
     </div>
         
     <script src="libs/angular.min.js"></script>
