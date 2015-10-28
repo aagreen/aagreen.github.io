@@ -8,7 +8,7 @@ angular.module("teahouse").controller("navCtrl", function($scope, $rootScope, $t
     $rootScope.$on("$routeChangeSuccess", function(){
         $timeout(function(){
             $scope.showFooter = true
-        }, 800);
+        }, 1500);
     });
     
 });
