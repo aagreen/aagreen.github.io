@@ -39,6 +39,7 @@ body {
 /* ========== Custom Owl Carousel ========== */
 #owl .item{
   margin: 20px;
+  margin-bottom: 0;
 }
 #owl .item img{
   display: block;
