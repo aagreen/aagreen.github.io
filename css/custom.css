@@ -45,6 +45,9 @@ body {
   width: 100%;
   height: auto;
 }
+#owl .md-caption{
+  padding-top: 5px;
+}
 
 /* ========== Custom elements ========== */
 @media (min-width: 750px) {
