@@ -46,7 +46,7 @@ body {
   height: auto;
 }
 #owl .md-caption{
-  padding-top: 5px;
+  text-align: center;
 }
 
 /* ========== Custom elements ========== */
