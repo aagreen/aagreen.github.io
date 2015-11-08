@@ -22,9 +22,6 @@ body {
 }
 
 #footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
     background-color: white;
     padding: 5px;
     margin-top: 20px;
@@ -36,10 +33,18 @@ body {
     padding-top: 5px;
 }
 
+#menu{
+    text-align: center;
+}
+@media (min-width: 750px) {
+  #menu .menuimg{
+    margin-left: 29%;
+  }
+}
+
 /* ========== Custom Owl Carousel ========== */
 #owl .item{
   margin: 20px;
-  margin-bottom: 0;
 }
 #owl .item img{
   display: block;
@@ -110,11 +115,6 @@ ul{
 
 md-tab-item{
   font-weight: bold !important;
-}
-
-md-card{
-  max-height: 400px;
-  max-width: 400px;
 }
 
 @media (max-width: 500px) {

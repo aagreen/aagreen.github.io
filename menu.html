@@ -1,9 +1,33 @@
 <div layout="row" layout-align="center center" layout-margin>
-    <div layout-margin flex flex-gt-lg="60">
+    <div id="menu" layout-margin flex flex-gt-lg="60">
         <md-tabs md-dynamic-height md-border-bottom>
-            <md-tab data-ng-repeat="category in categories track by $index" label="{{ category.name }}">
-                <h4 class="md-headline md-padding margin-bottom-none">{{ category.price }}</h4>
-                <ul ng-bind-html="category.drinks" class="md-padding margin-top-none"></ul>
+            <md-tab label="Cream Blend">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.25</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_creamblend.jpg" class="md-card-image" alt="outside of store" /></md-card>
+            </md-tab>
+            <md-tab label="Ice Blend">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.00</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_iceblend.jpg" class="md-card-image" alt="outside of store" /></md-card>
+            </md-tab>
+            <md-tab label="Cream Tea">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.00</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_creamtea.jpg" class="md-card-image" alt="outside of store" /></md-card>
+            </md-tab>
+            <md-tab label="Green Tea">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.00</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_greentea.jpg" class="md-card-image" alt="outside of store" /></md-card>
+            </md-tab>
+            <md-tab label="Black Tea">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.00</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_blacktea.jpg" class="md-card-image" alt="outside of store" /></md-card>
+            </md-tab>
+            <md-tab label="Juice">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.50</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_juice.jpg" class="md-card-image" alt="outside of store" /></md-card>
+            </md-tab>
+            <md-tab label="Coffee">
+                <h4 class="md-headline md-padding margin-bottom-none">$4.25</h4>
+                <md-card class="menuimg"><img ng-src="img/menu_coffee.jpg" class="md-card-image" alt="outside of store" /></md-card>
             </md-tab>
         </md-tabs>
     </div>

@@ -27,11 +27,15 @@
     margin-bottom: 0;
 }
 
-@media (min-width: 1500px){
-.footer-margin {
-    margin-bottom: 60px;
+.sqimg{
+  max-height: 400px;
+  max-width: 400px;
 }
+
+.menuimg{
+  max-width: 400px;
 }
+
 /* ----- Animations ----- */
 [ng-view].ng-enter {
   position: absolute;
