@@ -6,29 +6,29 @@ angular.module("teahouse", ['ngMaterial', 'ngRoute', 'ngAnimate'])
 
         // home page
         .when('/', {
-            templateUrl: 'views/home.html',
+            templateUrl: 'home.html',
             controller: 'homeCtrl'
         })
         .when('/home', {
-            templateUrl: 'views/home.html',
+            templateUrl: 'home.html',
             controller: 'homeCtrl'
         })
     
         // about
         .when('/gallery', {
-            templateUrl: 'views/gallery.html',
+            templateUrl: 'gallery.html',
             controller: 'galleryCtrl'
         })
     
         // submissions
         .when('/menu', {
-            templateUrl: 'views/menu.html',
+            templateUrl: 'menu.html',
             controller: 'homeCtrl'
         })
     
         // poetry
         .when('/contact', {
-            templateUrl: 'views/contact.html',
+            templateUrl: 'contact.html',
             controller: 'homeCtrl'
         })
 
