@@ -19,6 +19,12 @@
     box-shadow: 0 -5px 5px rgba(0,0,0,.2);
 }
 
+@media (min-width: 900px) {
+  .push-top{
+    margin-top: 70px;
+  }
+}
+
 .margin-top-none{
     margin-top: 0;
 }
