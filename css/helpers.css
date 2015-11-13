@@ -19,7 +19,7 @@
     box-shadow: 0 -5px 5px rgba(0,0,0,.2);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .push-bottom{
     margin-bottom: 70px;
   }
