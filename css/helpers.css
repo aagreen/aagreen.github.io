@@ -20,8 +20,8 @@
 }
 
 @media (min-width: 900px) {
-  .push-top{
-    margin-top: 70px;
+  .push-bottom{
+    margin-bottom: 70px;
   }
 }
 
